@@ -3,7 +3,9 @@ This is an application which takes a list of items as a csv file and uses it to 
 
 ## User Experience
 
-- **Example**: Here's an example of the application's interface. The X and Checkmark buttons respond to clicks:
+- **Example**: Here's an example of the application's interface:
+
+This is the "answer" side of a State Capitol card. In the app, the X and Checkmark buttons respond to clicks:
 
   ![Program Example Image](/doc/pyflashcardspic.png)
   
@@ -20,4 +22,7 @@ This is an application which takes a list of items as a csv file and uses it to 
 
 This was an exercise in learning Python.
 This is a modified version of Day 31 curriculum as part of [Angela Yu's 100 Days of Code](https://www.udemy.com/course/100-days-of-code/) course on Udemy
-For this version, I added functionality where the names of the card categories are read from the headers of the columns on the csv file and set the card flip delay to work from a variable so it is easier to modify. For the card deck, I added a starting csv file containing states with corresponding names of their captiols. The curriculum provided a French-to-English csv file. For a stress test, I also created a Latin to English file, which the serializer has difficulty loading.
+
+For this version, I added functionality where the names of the card categories are read from the headers of the columns on the csv file and set the card flip delay to work from a variable so it is easier to modify. 
+
+For the card deck, I added a starting csv file containing states with corresponding names of their captiols. The curriculum provided a French-to-English csv file which is also provided in this repository. For a stress test, I also created a Latin to English file which the serializer has difficulty loading.
